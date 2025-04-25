@@ -1,0 +1,4 @@
+dist
+cspell.json
+node_modules
+.vscode
