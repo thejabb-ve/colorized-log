@@ -1,6 +1,6 @@
 {
     "name": "colorized-log",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Colorize your logs",
     "main": "./dist/index.js",
     "types": "./dist/types/index.d.ts",
@@ -13,6 +13,10 @@
         "colorized"
     ],
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thejabb-ve/colorized-log.git"
+    },
     "author": "Agencia Jabb",
     "type": "module",
     "scripts": {
