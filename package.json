@@ -14,7 +14,7 @@
     ],
     "license": "ISC",
     "author": "Agencia Jabb",
-    "type": "commonjs",
+    "type": "module",
     "scripts": {
         "build": "npx eslint ./src --ext .js,.ts && rm -rf dist && tsc"
     },
