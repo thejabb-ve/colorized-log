@@ -58,7 +58,7 @@ function getEnum(
     return Enum[item as keyof typeof Enum] as unknown as string;
 }
 
-export default function colorizedLog(message: Message): void {
+function log(message: Message): void {
     if (
         typeof message === 'string' ||
         typeof message === 'boolean' ||
@@ -84,3 +84,5 @@ export default function colorizedLog(message: Message): void {
 
     return console.log(edit.join(' '), ...logs);
 }
+
+export default { log };
