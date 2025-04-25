@@ -1,6 +1,6 @@
 {
     "name": "colorized-log",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Colorize your logs",
     "main": "./dist/index.js",
     "types": "./dist/types/index.d.ts",
@@ -16,7 +16,8 @@
     "author": "Agencia Jabb",
     "type": "module",
     "scripts": {
-        "build": "npx eslint ./src --ext .js,.ts && rm -rf dist && tsc"
+        "build": "npx eslint ./src --ext .js,.ts && rm -rf dist && tsc && npm run public",
+        "public": "cp -r public/. dist"
     },
     "devDependencies": {
         "@eslint/js": "^9.25.0",

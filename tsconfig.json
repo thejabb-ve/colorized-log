@@ -6,7 +6,7 @@
         "declaration": true,
         "outDir": "./dist",
         "removeComments": true,
-        "declarationDir": "./dist/types",
+        "declarationDir": "./dist",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,
@@ -16,7 +16,7 @@
         "noImplicitAny": true,
         "skipLibCheck": true
     },
-    "include": ["src/**/*"],
+    "include": ["src/**/*", "public/**/*"],
     "exclude": ["node_modules", "**/*.spec.ts", "dist"],
     "paths": {
         "@/*": ["./*"]

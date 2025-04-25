@@ -1,3 +1,5 @@
+import './global.d.ts';
+
 enum color {
     black = 30,
     red = 31,
